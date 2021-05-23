@@ -1,0 +1,66 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+#menu{
+    margin:auto;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul,ol{
+    list-style:none;
+}
+.nav li a {
+    background-color: black;
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    display:block;
+}
+.nav li a:hover {
+    background-color:#2ccacf;
+}
+    .nav li {
+    float:left;
+}
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+#banner {
+text-align: center;
+}
+#titulo {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.subtitulo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#beneficios {
+    text-align: center;
+}
+.descripcion {
+    text-align: center;
+}
+#info {
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    padding: 50px;
+    clear: both;
+    background: #000;
+    text-align: center;
+    color: #fff;  
+}
